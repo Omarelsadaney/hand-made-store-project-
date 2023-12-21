@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+          <style>
+            *{
+                color:whitesmoke ;
+            }
+            label,option,h1,input,select,button{
+                color:black;
+            }
+
+            body {
+                background-image: url('img/bakeground.jpg');
+                background-repeat: no-repeat;
+                background-size:cover;
+                
+            }
+            #BACK{
+                color: red;
+                border: none;
+                font-style: italic;
+            }
+           
+
+         
+            
+        </style>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <title>
+            Hand-made store
+        </title>
+    </head>
+<body>
+    <h1> Join our family</h1>
+    <form action="hm.php.php"  method="post">
+        <label for="textbox1">Name : </label>
+        <input id="textbox1" type="text"name="name"maxlength="60" >
+   
+        
+        
+        <label for="textbox2">p_number : </label>
+        <input id="textbox2" type="text"name="p_number"maxlength="60" ><br/>
+
+        <label for="textbox3">password : </label>
+        <input id="textbox3" type="password" name="password" required ><br/>
+        
+        <label for="city">city : </label>
+        <select id ="city" name="city">
+            <option value="0"selected disabled>city</option> 
+            <option value="1">elmansoura</option>
+            <option value="2">tanta</option>
+            <option value="3">london</option>
+        </select>
+        <br>
+        <button type="submit" name="beta" id="beta1">
+        gooooooooo
+
+        </button>
+           
+
+         
+    
+    </form><br>
+    
+    <button type="submit" onclick="pop()">
+        DONE :)
+        <a href="Hand-made store.html" id="BACK">BACK</a>
+    </button>
+     
+    <Script>
+        function pop(){
+            swal({
+                title: "Good job!",
+                text: "well, i hope you have a good day! ",
+                 icon: "success",
+                button: "Aww yiss!",
+              });
+
+        }
+ 
+
+    
+
+ 
+
+
+            
+
+  
+ 
+
+        
+
+        
+    </Script>
+</body>
+
+
+</html>
